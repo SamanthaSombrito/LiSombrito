@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+  width: 80%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+ body {
+      background-color: #D8EDE2
+    }
+  ul {
+    list-style-type: none;
+  }
+   
+
+   li.box1 {
+          border: 5px solid white;   
+          float: left;
+          width: 465px;
+          height: 155px;
+          margin-block: 20px;
+          padding: 20px;
+          text-align: justify;
+          
+          
+         }
+
+   li.box2{
+           border: 5px solid white;
+          padding: 10px;
+          width: 1000px;
+          height:120px;
+          margin-top: 260px;
+          }
+
+    .bg1 {
+      background-image: url("pictures/forest5.png");       
+    }
+
+    .selection{
+
+      background: white;
+      opacity: 70%;
+    }
+
+    .selection2{
+
+      background: #91ba78;
+      opacity: 80%;
+    }
+    
+
+    .bg2 {
+
+      background-image: url("pictures/mountain1.jpg")
+      
+    }
+
+    .header {
+      position: relative;
+      top: 0;
+      background-image: url("pictures/header.jpg");
+      
+    }
+
+    ul.nav {
+  padding-left: 0px;
+
+  text-align: center;
+}
+  ul.nav > li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+  ul.nav > li > a {
+  color: white;
+  text-decoration: none;
+}
+  
