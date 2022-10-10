@@ -8,12 +8,21 @@ html {
     margin: auto;
 }
 
-body {
+body.home {
     display: table-cell;
     vertical-align: middle;
+    background-color: #D8EDE2
 }
- body {
-      background-color: #D8EDE2
+body.page {
+    display: inline;
+    vertical-align: middle;
+}
+ body.lm {
+     background-color: #d5e1e0
+    }
+
+ body.sr {
+     background-color: #965a5a
     }
   ul {
     list-style-type: none;
@@ -29,33 +38,90 @@ body {
           padding: 20px;
           text-align: justify;
           
-          
          }
 
    li.box2{
-           border: 5px solid white;
+          border: 5px solid white;
           padding: 10px;
           width: 1000px;
           height:120px;
           margin-top: 260px;
           }
 
-    .bg1 {
-      background-image: url("pictures/forest5.png");       
+    li.sidelm{
+          border: 5px solid #917330;
+          float: left;
+          padding: 10px;
+          width: 300px;
+          height:200px;
+          margin-top: 34px
+    
     }
 
-    .selection{
+    li.sidesr{
+          border: 5px solid #c33737;
+          float: left;
+          padding: 10px;
+          width: 300px;
+          height:200px;
+          margin-top: 34px
+
+    }
+
+    li.sideplm{
+          
+          float:left;
+          clear: left;
+          
+          
+    }
+
+    li.infolm{
+          border: 5px solid #917330;
+          float: right;
+          clear: right;
+          padding: 10px;
+          width: 670px;
+          height:390px;
+
+    }
+
+      li.infosr{
+          border: 5px solid #c33737;
+          float: right;
+          clear: right;
+          padding: 10px;
+          width: 670px;
+          height:390px;
+         
+          
+    }
+    .selectionw{
 
       background: white;
       opacity: 70%;
     }
 
-    .selection2{
+    .selectiong{
 
       background: #91ba78;
       opacity: 80%;
     }
+     .selectionb{
+
+      background: #ccb27b;
+      opacity: 80%;
+    }
+
+     .selectionr{
+
+      background: #c33737;
+      opacity: 80%;
+    }
     
+    .bg1 {
+      background-image: url("pictures/forest5.png");       
+    }
 
     .bg2 {
 
@@ -63,11 +129,51 @@ body {
       
     }
 
-    .header {
+    .bgslm {
+
+      background-image: url("pictures/fr1.jpg")
+    }
+
+    .bgilm {
+
+      background-image: url("pictures/fr2.jpg");
+    }
+
+    .bgssr {
+
+      background-image: url("pictures/re1.jpg")
+    }
+
+    .bgisr {
+
+      background-image: url("pictures/re2.webp");
+    }
+
+    .headerhome {
       position: relative;
       top: 0;
       background-image: url("pictures/header.jpg");
       
+    }
+    .headerlm {
+      position: relative;
+      top: 0;
+      background-image: url("pictures/headerlm.jpg");
+      
+    }
+
+    .headersr {
+      position: relative;
+      top: 0;
+      background-image: url("pictures/headersomrot.jpg");
+     
+      
+    }
+
+    li.back {
+      margin-top: 10px;
+      float: right;
+      clear: right;
     }
 
     ul.nav {
