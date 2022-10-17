@@ -68,12 +68,10 @@ body.page {
 
     }
 
-    li.sideplm{
+    li.sidep{
           
           float:left;
           clear: left;
-          
-          
     }
 
     li.infolm{
@@ -141,12 +139,12 @@ body.page {
 
     .bgssr {
 
-      background-image: url("pictures/re1.jpg")
+      background-image: url("pictures/re1.jpg");
     }
 
     .bgisr {
 
-      background-image: url("pictures/re2.webp");
+      background-image: url("pictures/re2.jpg");
     }
 
     .headerhome {
@@ -165,15 +163,13 @@ body.page {
     .headersr {
       position: relative;
       top: 0;
-      background-image: url("pictures/headersomrot.jpg");
-     
-      
+      background-image: url("pictures/headersomrot.jpg"); 
     }
 
     li.back {
-      margin-top: 10px;
-      float: right;
-      clear: right;
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
     }
 
     ul.nav {
