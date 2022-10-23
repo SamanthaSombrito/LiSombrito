@@ -11,7 +11,7 @@ html {
 body.home {
     display: table-cell;
     vertical-align: middle;
-    background-color: #D8EDE2
+    background-color: #d1e5df
 }
 body.page {
     display: inline;
@@ -64,8 +64,44 @@ body.page {
           padding: 10px;
           width: 300px;
           height:200px;
-          margin-top: 34px
+          margin-top: 34px;
+  
 
+    }
+    img.m{
+      position: absolute;
+      left: 90px;
+      top: 45px;  
+    }
+
+    img.l{
+      position:absolute;
+      right: 5px;
+      bottom: 0px;
+    }
+
+    img.n{
+      position: absolute;
+      right: 40px;
+      top: 30px;
+    }
+
+    img.o{
+      position: absolute;
+      left: 110px;
+      bottom: 200px;
+    }
+
+    img.p{
+      position: absolute;
+      right: 40px;
+      top: 50px;
+    }
+
+    img.q{
+      position: absolute;
+      left: 80px;
+      top: 100px;
     }
 
     li.sidep{
@@ -152,6 +188,8 @@ body.page {
       top: 0;
       background-image: url("pictures/header.jpg");
       
+
+    
     }
     .headerlm {
       position: relative;
